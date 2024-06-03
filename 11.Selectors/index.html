@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+  </head>
+  <style>
+    /*element selctor*/
+    div {
+      background-color: red;
+    }
+    /* class selector */
+    .para {
+      background-color: blue;
+    }
+    /* ID selector */
+    #page {
+      background-color: green;
+    }
+    /* child selector */
+    div > p {
+      background-color: blueviolet;
+    }
+    /*Descendent Selector */
+    div p {
+      background-color: yellowgreen;
+    }
+    /* Universal selcxtor */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    /* Pseudo selector */
+    a :visited {
+      color: yellow;
+    }
+    a :link {
+      color: green;
+    }
+    a:hover {
+      background-color: black;
+    }
+  </style>
+  <body>
+    <div>I M a single div</div>
+    <div class="para">I M class selector</div>
+    <div id="page">I m a id selector</div>
+    <>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum at
+      recusandae. Explicabo est ex maiores voluptatibus praesentium, debitis
+      sint odit nesciunt quidem saepe quaerat fugiat vero consectetur optio
+      laborum minus qui quis dolores? Cupiditate aspernatur molestias eum quae
+      laboriosam?
+    </p>
+    <div>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum
+          at recusandae. Explicabo est ex maiores voluptatibus praesentium,
+          debitis sint odit nesciunt quidem saepe quaerat fugiat vero
+          consectetur optio laborum minus qui quis dolores? Cupiditate
+          aspernatur molestias eum quae laboriosam?
+        </p>
+      </article>
+    </div>
+    <a href="https://www.google.com">Go To Google</a>
+    <a href="https://www.facebook.com">Go To Facebook</a>
+  </body>
+</html>
